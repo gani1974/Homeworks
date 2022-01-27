@@ -26,7 +26,6 @@ public class searchMissed {
     }
 
     public static void test(int lostNum, int... arr) {
-//        System.out.printf("Пропущено: %d, найдено: %d%n", lostNum, search(arr));
         System.out.println(Arrays.toString(arr) + " => " + lostNum);
     }
 }
